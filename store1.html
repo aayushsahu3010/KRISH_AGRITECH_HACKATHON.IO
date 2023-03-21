@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krish Store </title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- header section starts  -->
+
+  <header class="header">
+
+    <a href="#" class="logo"></a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#services">store</a>
+      <a href="#projects">experts</a>
+
+      <a href="#pricing">discussion</a>
+      <a href="#contact">contact</a>
+      <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="info-btn" class="fas fa-info-circle"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    <form action="" class="search-form ">
+      <input type="search" name="" onkeyup="myFunction()" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <form action="" class="login-form">
+      <h3>login form</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <div class="flex">
+        <input type="checkbox" name="" id="remember-me">
+        <label for="remember-me">remember me</label>
+        <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+      <p>don't have an account <a href="#">create one!</a></p>
+    </form>
+
+  </header>
+
+  <div class="contact-info">
+
+    <div id="close-contact-info" class="fas fa-times"></div>
+
+    <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>+2347064931387</p>
+      <p>08163913697</p>
+    </div>
+
+    <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>agholorchristotle@gmail.com</p>
+      <p>info@companyname.com</p>
+    </div>
+
+    <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>office address</h3>
+      <p>Port Harcourt, Nigeria - 500102</p>
+    </div>
+
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+  </div>
+
+  <!-- header section ends -->
+
+  <!--Body starts-->
+
+  <br>
+  <br>
+  <h1 style="text-align: center;">Krish Store</h1>
+  <br>
+  <br>
+  <div style="text-align:center;">
+    <h1>Set Crop name</h1>
+    <textarea style="text-align: center;" rows="2" cols="111" placeholder="Enter corp name"></textarea>
+
+
+    <br>
+    <br>
+    <div style="text-align: cetner;">
+
+      <h1 style="text-align: center;">Set Quantity(Kgs),Amount(Rs),Address</h1>
+      <textarea rows="4" cols="50" placeholder="Enter Quantity(Kgs),Amount(Rs),Address"></textarea>
+      <br>
+      <a href="#" class="btn btn-primary">Sell</a>
+      <a href="#" class="btn btn-primary">Demand</a>
+
+
+    </div>
+
+    <br>
+    <br>
+    <!--herre-->
+
+    <h1 style="text-align: center;">ITEMS TO BUY</h1>
+    <br>
+    <div id="items" style="display: flex; justify-content: space-around;" id="buy">
+
+      <div class="card"
+        style="background-image: url('images/shane-kong-dDI3pSF-yK4-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px;  color: white;" class="c8">Chilli</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Bilashpur</p>
+          <a href="#" class="btn btn-primary" color: white;>Buy</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/don-kaveen-BC09YEMTPMw-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Lady Finger</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,M.P</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/k8-GHRT9j21m2M-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+        <!-- <img class="card-img-top" src="images/k8-GHRT9j21m2M-unsplash.jpg;"  alt="Card image cap"> -->
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Carrot</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Gurgaon</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/engin-akyurt-eb26eV-ys_k-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Tomato</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Delhi</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/rodrigo-dos-reis-h3AkzboxK4Q-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8"> Potato</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Haryana</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/sack-rice-seed-with-white-rice-small-wooden-spoon-rice-plant.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Rice</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Telengana</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    <br>
+    <br>
+    <!--here2-->
+    <h1 style="text-align: center;">ITEMS IN DEMAND</h1>
+    <br>
+
+    <div id="items2" style="display:flex; justify-content: space-around;" id="demand">
+      <div class="card"
+        style="background-image: url('images/wheat-field-yellow.jpg'); background-repeat:no-repeat; background-size: cover; ">
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Wheat</h5>
+          <p style="font-size: 20px; color: white">10kg,10000Rs,Jammu</p>
+          <a href="#" class="btn btn-primary">Demand</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/ranurte-kSdi_gqbGGs-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">cotton</h5>
+          <p style="font-size: 20px; color: white">10kg,10000Rs,Tripura</p>
+          <a href="#" class="btn btn-primary">Demand</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/wouter-supardi-salari-HE_MjmWh9eQ-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Corn</h5>
+          <p style="font-size: 20px; color: white">10kg,10000Rs,Rajasthan</p>
+          <a href="#" class="btn btn-primary">Demand</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/pierre-bamin--LdilhDx3sk-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Paddy</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Telengana</p>
+          <a href="#" class="btn btn-primary">Demand</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/avinash-kumar-OvUAL6Vx3uY-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Soybean</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Gurugram</p>
+          <a href="#" class="btn btn-primary">Demand</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/depositphotos_3388455-stock-photo-jowarsorghum-grains.jpg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: white;" class="c8">Jowar</h5>
+          <p style="font-size: 20px; color: white;">10kg,10000Rs,Kota</p>
+          <a href="#" class="btn btn-primary">Demand</a>
+        </div>
+      </div>
+    </div>
+    <BR>
+    <BR>
+
+    <!--ITEMS FOR LOAN-->
+
+    <h1 style="text-align:center">ITEMS FOR LOAN</h1>
+    <br>
+    <div id="loan" style="display: flex; justify-content: space-around;">
+      <div class="card"
+        style="background-image: url('images/tractor.jpeg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px;  color: black;" class="c8">Tractor Machine</h5>
+          <p style="font-size: 20px; color: black;">Rs 1500.00/Hr</p>
+          <a href="#" class="btn btn-primary" color: white;>Hire</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/sprinkl.jpeg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: black;" class="c8">Sprinkler Machine</h5>
+          <p style="font-size: 20px; color: black;">Rs 200.00/Hr</p>
+          <a href="#" class="btn btn-primary">Hire</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/pump.jpeg'); background-repeat:no-repeat; background-size: cover; ">
+        <!-- <img class="card-img-top" src="images/k8-GHRT9j21m2M-unsplash.jpg;"  alt="Card image cap"> -->
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: black;" class="c8">Water Pump Machine</h5>
+          <p style="font-size: 20px; color: black;">Rs 4000.00/Hr</p>
+          <a href="#" class="btn btn-primary">Hire</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/mitti.jpeg');background-repeat:no-repeat;background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: black;" class="c8">Plough Machine</h5>
+          <p style="font-size: 20px; color: black;">Rs 1700.00/Hr</p>
+          <a href="#" class="btn btn-primary">Hire</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/nangar.jpeg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: black;" class="c8"> Cultivator Machine</h5>
+          <p style="font-size: 20px; color: black;">Rs 1600.00/Hr</p>
+          <a href="#" class="btn btn-primary">Hire</a>
+        </div>
+      </div>
+
+      <div class="card"
+        style="background-image: url('images/WhatsApp\ Image\ 2023-03-21\ at\ 12.44.45\ AM.jpeg'); background-repeat:no-repeat; background-size: cover; ">
+
+        <div class="card-body">
+          <h5 style="font-size: 25px; color: black;" class="c8">Harrow Machine</h5>
+          <p style="font-size: 20px; color: black;">Rs 1600.00/Hr</p>
+          <a href="#" class="btn btn-primary">Hire</a>
+        </div>
+      </div>
+
+    </div>
+    <BR>
+    <BR>
+
+    <!--LAND FOR LOAN-->
+    <!-- <h1 style="text-align:center">LAND FOR RENT</h1>
+    <br> 
+    <div id="loan" style="display: flex; justify-content: space-around;" >
+    
+        <div class="card" style="background-image: url('images/shane-kong-dDI3pSF-yK4-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+            
+            <div class="card-body">
+              <h5 style="font-size: 25px;  color: white;">Tractor</h5>
+              <p style="font-size: 20px; color: white;">10kg,10000Rs,Bilashpur</p>
+              <a href="#" class="btn btn-primary" color: white;>Hire</a>
+            </div>
+          </div>
+    
+          <div class="card" style="background-image: url('images/don-kaveen-BC09YEMTPMw-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+           
+            <div class="card-body">
+              <h5 style="font-size: 25px; color: white;">Sprinkler</h5>
+              <p style="font-size: 20px; color: white;">10kg,10000Rs,M.P</p>
+              <a href="#" class="btn btn-primary">Hire</a>
+            </div>
+          </div>
+    
+          <div class="card"  style="background-image: url('images/k8-GHRT9j21m2M-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+            <!-- <img class="card-img-top" src="images/k8-GHRT9j21m2M-unsplash.jpg;"  alt="Card image cap"> -->
+    <!-- <div class="card-body">
+              <h5 style="font-size: 25px; color: white;">Water Pump</h5>
+              <p style="font-size: 20px; color: white;">10kg,10000Rs,Gurgaon</p>
+              <a href="#" class="btn btn-primary">Hire</a>
+            </div>
+          </div>
+    
+          <div class="card" style="background-image: url('images/engin-akyurt-eb26eV-ys_k-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+            
+            <div class="card-body">
+              <h5 style="font-size: 25px; color: white;">Plough</h5>
+              <p style="font-size: 20px; color: white;">10kg,10000Rs,Delhi</p>
+              <a href="#" class="btn btn-primary">Hire</a>
+            </div>
+          </div>
+    
+          <div class="card" style="background-image: url('images/rodrigo-dos-reis-h3AkzboxK4Q-unsplash.jpg'); background-repeat:no-repeat; background-size: cover; ">
+            
+            <div class="card-body">
+              <h5 style="font-size: 25px; color: white;"> Potato</h5>
+              <p style="font-size: 20px; color: white;">10kg,10000Rs,Haryana</p>
+              <a href="#" class="btn btn-primary">Hire</a>
+            </div>
+          </div>
+    
+          <div class="card" style="background-image: url('images/sack-rice-seed-with-white-rice-small-wooden-spoon-rice-plant.jpg'); background-repeat:no-repeat; background-size: cover; ">
+            
+            <div class="card-body">
+              <h5 style="font-size: 25px; color: white;">Harrow</h5>
+              <p style="font-size: 20px; color: white;">10kg,10000Rs,Telengana</p>
+              <a href="#" class="btn btn-primary">Hire</a>
+            </div>
+          </div>
+    
+    </div> -->
+    <!--Body ends-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+      <div class="links">
+        <a class="btn" href="#home">Home</a>
+        <a class="btn" href="#about">About</a>
+        <a class="btn" href="#Schemes_1">Schemes</a>
+
+        <a class="btn" href="#services">Store</a>
+        <a class="btn" href="#projects">Experts</a>
+        <a class="btn" href="#pricing">pricing</a>
+        <a class="btn" href="#contact">contact</a>
+        <a class="btn" href="#blogs">blogs</a>
+      </div>
+
+      <div class="credit"> Designed by Men</div>
+
+    </section>
+
+    <!-- footer section ends -->
+    <script>
+      document.querySelector('#search-btn').onclick = () => {
+        searchForm.classList.toggle('active');
+        navbar.classList.remove('active');
+        loginForm.classList.remove('active');
+      };
+
+    </script>
+
+    <script>
+      function myFunction() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("search-box");
+        filter = input.value.toUpperCase();
+
+        li = document.getElementsByClassName('c8');
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+          a = li[i];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].parentElement.style.display = "";
+          } else {
+            li[i].parentElement.style.display = "none";
+          }
+        }
+      }
+    </script>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+
+      lightGallery(document.querySelector('.projects .box-container'));
+
+    </script>
+
+</body>
+
+</html>
